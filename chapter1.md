@@ -8,3 +8,8 @@ Git을 사용하는 방법은 많다. CLI로 사용할 수도 있고 GUI를 사�
 
 윈도우에 Git을 설치하는 방법은 여러 가지다. 공식 배포판은 Git 웹사이트에서 내려 받을 수 있다.
 [http://git-scm.com/download/win](http://git-scm.com/download/win)에 가면 자동으로 내려받는다. 자세한 정보는 [http://msysgit.github.io/](http://msysgit.github.io)에서 확인한다.
+
+GitHub for Windows를 설치해도 된다. 이 인스톨러는 CLI도 설치하고 GUI도 설치한다. <http://windows.github.com>에서 내려 받는다
+
+
+![이미지설명](a.png)

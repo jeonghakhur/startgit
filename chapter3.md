@@ -31,4 +31,8 @@ $git clone https://github.com/jeonghakhur/testgit
 $git clone https://github.com/jeonghakhur/testgit mytestgit
 ```
 
+##파일의 상태 확인하기
+
+##파일 제외하기
+
 

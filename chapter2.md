@@ -24,7 +24,6 @@ $git config --global user.email "honggildong@example.com"
 $git config --global --unset user.name
 ```
 
-///
 
 ```--global``` 옵션으로 설정한 것은 딱 한 번만 하면 된다. 해당 시스템에서 해당 사용자가 사용할 때에는 이 정보를 사용한다. 만약 프로젝트 마다 다른 이름과 이메일 주소를 사용하고 싶으면 ```---global``` 옵션을 빼고 명령을 실행한다.
 

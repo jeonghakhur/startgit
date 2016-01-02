@@ -1,3 +1,7 @@
-# First Chapter
+# 시작하기 - Git 설치
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Git을 사용하려면 우선 설치해야한다. 이미 설치했으면 최신 버전으로 업데이트하는게 좋다. 패키지 설치를하거나 별도의 인스톨러로 설치할 수 있다. 아니면 직접 소스코드를 내려받아서 컴파일 할 수도 있다.
+
+---
+이 책은 Git 2.0.0 버전을 기준으로 썼다. 그래도 대부분의 명령어는 그 이전 버전에서도 잘 동작한다. 하지만, 몇 가지 기능은 아예 없거나 미요하게 다를 수 있다.
+---

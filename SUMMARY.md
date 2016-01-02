@@ -1,4 +1,4 @@
 # Summary
 
-* [시작하기 - Git 설치](chapter1.md)
-	* [CL](chapter1.1.md)
+* [Git 설치](chapter1.md)
+* [Git 최초 설정](chapter2.md)

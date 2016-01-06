@@ -101,3 +101,51 @@ $ git reset HEAD unstage_file
 ```
 $ git checkout -- modified_file
 ```
+
+###리모트 저장소 확인하기
+```
+$ git remote -v
+```
+저장소를 Clone 하면 origin이라는 리모트 저장소가 자동으로 등록되기 때문에 origin이라는 이름을 볼 수 있다.
+
+
+##리모트 저장소 추가하기
+```
+$ git remote [add] [단축이름 URL]
+```
+
+
+##리모트 저장소를 Pull 하거나 Fetch 하기
+```
+$ git fetch [remote-name]
+```
+이 명령은 모컬에는 없지만, 리모트 저장소에 있는 데이터를 모두 가져온다.
+
+저장소를 Clone 하면 명령은 자동으로 리모트 저장소를 "origin"이라는 이름으로 추가한다. ```git fetch origin```을 실행하면 Clone 한 이후에 수정된 것을 모두 가져온다. ```git fetch``` 명령은 리모트 저장소의 데이터를 모두 로컬로 가져오지만, 자동으로 Merge 하지 않는다.
+
+```git pull``` 명령은 리모트 저장소 브랜치에서 데이터를 가져올 뿐만 아니라 자동으로 로컬 브랜치와 Merge 시킬 수 있다.
+
+
+##리모트 저장소에 Push 하기
+```
+$ git push [리모트 저장소 이름] [브랜치 이름]
+```
+Clone 한 사람이 여러 명 있을 때, 다른 사람이 Push 한 후에 Push 하려고 하면 Push 할 수 없다. 먼저 다른 사람이 작업한 것을 가져와서 Merge 한 후 Push 할 수 있다.
+
+
+##리모트 저장소 살펴보기
+```
+$ git remote show origin
+```
+
+
+##리모트 저장소 이름 바꾸기 및 삭제하기
+```
+$ git remote rename [리모트 저장소 이름] [변경 할 리모트 저장소 이름]
+```
+
+
+##리모트 저장소 삭제하기
+```
+$ git remote rm [리모트 저장소 이름]
+```

@@ -82,3 +82,22 @@ $ git mv file_from file_to
 $ git commit --amend
 ```
 너무 일찍 커밋했거나 어떤 파일을 빼먹었을 때 그리고 커밋 메시지를 잘못 적었을 때 한다. 이 명령은 Staging Area를 사용하여 커밋한다. 만약 마지막으로 커밋하고 나서 수정한 것이 없다면 조금 전에 한 커밋과 모든 것이 같다. 이때는 커밋 메시지만 수정한다. 메시지를 수정하지 않고 그대로 커밋해도 기존의 커밋을 덮어쓴다.
+
+커밋을 했는데 Stage 하는 것을 깜빡하고 빠트린 파일이 있으면 아래와 같이 고칠 수 있다.
+```
+$ git commit -m 'initial commit'
+$ git add forgotten_file
+$ git commit --amend
+```
+여기서 실행한 명령어 3개는 모두 하나의 커밋으로 기록된다. 두 번째 커밋은 첫 번째 커밋을 덮어쓴다.
+
+
+##파일 상태를 Unstage로 변경하기
+```
+$ git reset HEAD unstage_file
+```
+
+##Modified 파일 되돌리기
+```
+$ git checkout -- modified_file
+```

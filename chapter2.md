@@ -51,7 +51,10 @@ Hong Gildong
 
  명령을 실행하면 설정한 모든 것을 보여준다.
 
+SSH Key 등록 방법 작성
 
-
-
+SSH key 클립보드로 복사
+```
+clip < ~/.ssh/id_rsa.pub
+```
 
